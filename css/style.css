@@ -1,0 +1,501 @@
+li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.topbar {
+  padding: 10px 50px;
+  background: #1A2B48;
+  width: 100%;
+}
+
+.topbar a {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif !important \;;
+}
+
+.topleft a {
+  padding: 0 15px;
+  color: white;
+  line-height: 15px;
+}
+
+.topright a {
+  padding: 0 15px;
+  border-right: 1px solid #ccc;
+  color: white;
+}
+
+.topright a span {
+  line-height: 15px;
+}
+
+.topright .twoul a {
+  border-left: 1px solid #ccc;
+}
+
+.head {
+  background: url(../photo/img_hero_6.jpg);
+}
+
+.menu {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.menu .nav-bar a {
+  font-weight: 700;
+}
+
+.menu .middle-menu {
+  position: relative;
+}
+
+.menu ul li {
+  padding: 20px 15px;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li a i {
+  font-size: .6em;
+}
+
+.menu ul li a.btnMy {
+  background: var(--orange-color, #FA5636);
+  border-radius: 3px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.menu ul li a.btnMy:hover {
+  background-color: #D3482E;
+}
+
+.menu ul li.bigMenu {
+  position: static !important;
+}
+
+.menu ul li.bigMenu .LiDropdown {
+  width: 100% !important;
+}
+
+.menu ul li.bigMenu:hover .LiDropdown {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.menu ul li.LiDropped, .menu ul li.bigMenu {
+  position: relative;
+}
+
+.menu ul li.LiDropped:hover .LiDropdown, .menu ul li.bigMenu:hover .LiDropdown {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.menu ul li.LiDropped .LiDropdown, .menu ul li.bigMenu .LiDropdown {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background: white;
+}
+
+.menu ul li.LiDropped .LiDropdown a, .menu ul li.bigMenu .LiDropdown a {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  padding: 5px;
+  font-size: 15px;
+  color: #3c3d3f;
+  font-weight: 700;
+  border-bottom: gray;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.menu ul li.LiDropped .LiDropdown a:hover, .menu ul li.bigMenu .LiDropdown a:hover {
+  color: #5191FA;
+  text-decoration: none !important;
+}
+
+.menu ul li.LiDropped .LiDropdown li, .menu ul li.bigMenu .LiDropdown li {
+  padding: 10px;
+  border-bottom: 1px solid #EEEE;
+}
+
+.headmiddle {
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+.headmiddle .midleft {
+  margin: 50px 0;
+}
+
+.headmiddle .midleft h1 {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 54px;
+  color: #FFF;
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+.headmiddle .midleft p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+.table {
+  width: 800px;
+  height: 100px;
+  background-color: white;
+}
+
+#Special .special-item {
+  margin-top: 30px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#Special .special-item:hover .special-text {
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+}
+
+#Special .special-item:hover .special-text button {
+  display: block;
+}
+
+#Special .special-item .special-text {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+#Special .special-item .special-text h2 {
+  color: #fff;
+  margin-top: 60px;
+  font-weight: 450;
+  font-size: 35px;
+  margin-bottom: 18px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-family: inherit;
+}
+
+#Special .special-item .special-text p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 75px;
+  margin: 0 0 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: normal;
+}
+
+#Special .special-item .special-text button {
+  display: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  background: transparent;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#Special .special-item .special-text button:hover {
+  background: white;
+  color: #658fb6;
+  font-weight: 500;
+}
+
+#Special .special-item:hover .special-img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Special .special-item .special-img {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 30px;
+  border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#Special .special-item .special-img.spec-1 {
+  background-image: url(../photo/image_banner_1.jpg);
+}
+
+#Special .special-item .special-img.spec-2 {
+  background-image: url(../photo/image_banner_2.jpg);
+}
+
+#Special .special-item .special-img.spec-3 {
+  background-image: url(../photo/image_banner_3.jpg);
+}
+
+.txt-div h2 {
+  font-size: 28px;
+  margin-top: 20px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin: 50px 0;
+}
+
+.cont .country {
+  margin-top: 30px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cont .country .country-img {
+  vertical-align: middle;
+  background-repeat: no-repeat !important;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.cont .country .country-img:hover .country-text h4::after {
+  width: 70px;
+}
+
+.cont .country .country-img.coun-1 {
+  background: url(../photo/cheapest-car-insurance-in-new-jersey-nj-story-270x200.jpg);
+}
+
+.cont .country .country-img.coun-2 {
+  background: url(../photo/san_francisco-1024x1024-270x200.jpg);
+}
+
+.cont .country .country-img.coun-3 {
+  background: url(../photo/virgi_3-1024x1024-270x200.jpg);
+}
+
+.cont .country .country-img.coun-4 {
+  background: url(../photo/cali_5-1024x1024-270x200.jpg);
+}
+
+.cont .country .country-img.coun-5 {
+  background: url(../photo/los_angeles_3-1024x1024-270x200.jpg);
+}
+
+.cont .country .country-img.coun-6 {
+  background: url(../photo/nevaga_2-1024x1024-270x200.jpg);
+}
+
+.cont .country .country-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cont .country .country-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.cont .country .country-text h4 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 24px !important;
+  text-transform: uppercase;
+  font-weight: 450px !important;
+  margin-top: 0;
+}
+
+.cont .country .country-text h4 a {
+  color: white;
+  font-weight: 700px;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.country-text h4::after {
+  content: "";
+  height: 2px;
+  width: 50px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.updates {
+  background: #F5F5F5;
+  margin: 50px 0;
+  padding: 50px 20px;
+}
+
+.updates .media-left {
+  padding-right: 30px;
+}
+
+.updates .media-body h4 {
+  font-size: 24px !important;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.updates p {
+  font-size: 16px !important;
+  color: var(--grey-color, #5E6D77) !important;
+  margin: 0 0 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: normal;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.form-controll {
+  font-family: 'Tinos', serif;
+}
+
+.form-controll .first {
+  height: 55px;
+  line-height: 53px;
+  font-size: 14px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #D7DCE3;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 6px 50px;
+  color: #555;
+  background-color: #fff;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+.form-controll .second {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  height: 55px;
+  line-height: 55px;
+  color: #FFF;
+  background: var(--link-color, #5191FA);
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-bottom: 30px;
+}
+
+.footer p span {
+  color: #5e6d77;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: normal;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.footer .e-mail i {
+  color: #A0A9B2;
+  padding-right: 10px;
+}
+
+.footer .e-mail h4 {
+  font-size: 22px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.footer a {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  color: var(--main-color, #1A2B48);
+}
+
+.footer a:hover {
+  color: #1A2B48 !important;
+}
+
+.footer .accordion ul li {
+  border: 3px solid #cccc;
+  font-size: 13px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.number h4 {
+  font-size: 22px;
+}
+
+h4 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 14px;
+}
+
+.foot-write {
+  padding: 20px 0;
+}
+
+.foot-write p {
+  padding-right: 3px;
+  font-size: 14px !important;
+  color: var(--main-color, #1A2B48);
+  font-weight: normal;
+}
+/*# sourceMappingURL=style.css.map */
